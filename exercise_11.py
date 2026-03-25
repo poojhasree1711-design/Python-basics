@@ -27,9 +27,9 @@ print("Attendance Percentage:", attendance_percentage, "%")
 
 #Eligibility check
 if attendance_percentage >= 75:
-    print("Eligible")
+    print("He is Eligible for attendance")
 else:
-    print("Not Eligible")
+    print("He is Not Eligible")
 
 #2
 # Problem: Student Performance Filter
