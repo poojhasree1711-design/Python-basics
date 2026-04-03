@@ -16,8 +16,7 @@ for row in rows:
         name = a.text.strip()
         full_link = base + a["href"]
 
-        print("Opening:", name)  # ✅ DEBUG (you'll see progress)
-
+        print("Opening:", name) 
         r = requests.get(full_link)
         s = BeautifulSoup(r.text, "html.parser")
 
