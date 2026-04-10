@@ -21,7 +21,7 @@ with open("data.json","r") as f:
 
 
 #converting python into pickle 
-dict_pickle={"name":"poojha","age":19,"dept":"IT","hobbies":("reading,writing"),"student":True,"graduated":False,"weight":43.50,"diability":None}
+dict_pickle={"name":"poojha sree","age":19,"dept":"IT","hobbies":("reading,writing"),"student":True,"graduated":False,"weight":43.50,"diability":None}
 type(dict_pickle)
 
 import pickle
